@@ -14,7 +14,7 @@ class curl
     public $headers;
     public $time_out;
 
-    public function __construct($url, $method, $data, $headers, $time_out = 20)
+    public function __construct($url, $method, $data, $headers = [], $time_out = 20)
     {
 
         if(!extension_loaded('curl')) {
