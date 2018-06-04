@@ -484,7 +484,7 @@ class mysql extends contract
      * 删除数据
      * @return int|\PDOStatement
      */
-    public function delete($id)
+    public function delete($id = null)
     {
 
         $pk  = $this->schema->getPK($this->tableName);
