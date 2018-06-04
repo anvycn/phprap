@@ -14,7 +14,7 @@ class mock {
      * @param $value
      * @return bool|string
      */
-    public function string($rule, $value)
+    public function string($rule, $value = null)
     {
 
         $chars  = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
@@ -52,7 +52,7 @@ class mock {
      * @param $rule
      * @return int|string
      */
-    public function number($rule,$value)
+    public function number($rule,$value = null)
     {
 
         $numbers  = '0123456789';
